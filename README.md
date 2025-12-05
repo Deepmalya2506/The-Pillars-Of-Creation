@@ -108,8 +108,8 @@ Best practices & tips
 
 Outputs & examples
 ------------------
-- Normalization preview: `Screenshot 2025-12-05 142716.png`
-- Final processed image: `Screenshot 2025-12-05 142459.png`
+- Normalization preview: `initial.png`
+- Final processed image: `final.png`
 
 Sonification
 ------------
@@ -120,6 +120,24 @@ Caveats
 - This project processes real astronomical data. Avoid overinterpreting tiny photometric or morphological features introduced by aggressive processing.
 - Some notebooks may assume local data paths. Update the paths at the top of each notebook to match your environment.
 
+Nested Resource
+-------
+- This project also covers the processing of a .fits file that conceals real astronomical data in a numpy array.
+- artificial_frame01.ipynb
+- Initial Fits array of pixels of shape(893,891)
+```
+array([[ 7201,  6642,  6642, ...,  9498,  9498, 10057],
+       [ 6642,  6363,  6642, ..., 10057, 10616, 10616],
+       [ 6922,  6642,  6922, ..., 10337, 11175, 10616],
+       ...,
+       [ 5412,  5132,  5412, ..., 13000, 12580, 12021],
+       [ 5796,  5517,  5796, ..., 12546, 12546, 11987],
+       [ 5796,  5796,  6076, ..., 11987, 12546, 12546]],
+      shape=(893, 891), dtype='>i2')
+
+```
+- final image plotted using function plt.imshow() against colormap='inferno'
+![Horsehead Nebula](./horsehead.png)
 Contributing & reproducibility
 ------------------------------
 Contributions are welcome. If you add notebooks or modify workflows:
