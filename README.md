@@ -2,8 +2,8 @@
 
 A deep‑processing astrophotography project built from raw SHO narrowband data of the Pillars of Creation (M16). This repository documents a full scientific imaging pipeline that reconstructs the iconic structure through SHO channel normalization, color balancing, Richardson–Lucy deconvolution, LRGB destacking, and super‑resolution reconstruction — finishing with an exploratory sonification of the final image.
 
-![Normalization Preview](./Screenshot_2025-12-05_142716.png)
-![Final Image](./Screenshot_2025-12-05_142459.png)
+![Normalization Preview](./initial.png)
+![Final Image](./final.png)
 
 Overview
 --------
