@@ -137,7 +137,7 @@ array([[ 7201,  6642,  6642, ...,  9498,  9498, 10057],
 
 ```
 - final image plotted using function plt.imshow() against colormap='inferno'
-![Horsehead Nebula](./horsehead.png)
+![Horsehead Nebula](./horse_headnebula.jpeg)
 Contributing & reproducibility
 ------------------------------
 Contributions are welcome. If you add notebooks or modify workflows:
